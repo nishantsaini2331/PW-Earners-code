@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.box {
+    width: 300px;
+    height: 150px;
+    background-color: aquamarine;
+    transition-duration: 2s;
+    transition-property: all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    /* transition-delay: 2s; */
+    /* transition: all 5s linear  */
+    /* transform: translateX(100px);
+     transform: translateY(100px); */
+
+    /* transform: translate(100px,100px); */
+    /* transform: scaleY(2) */
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation-name: sneha; */
+    animation-name: dhruv;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+    animation-fill-mode: both;
+
+}
+
+@keyframes sneha {
+    from {
+        background-color: red;
+        /* transform:translateX(30px 50px); */
+    }
+
+    to {
+        background-color: green;
+        transform: translate(30px, 50px);
+    }
+
+}
+
+@keyframes dhruv {
+
+    0% {
+        background-color: red;
+        left: 0%;
+    }
+
+    25% {
+        background-color: purple;
+        /* width: 1000px; */
+    }
+
+    50% {
+        background-color: pink;
+        /* right: 50%; */
+    }
+
+    75% {
+        background-color: yellow;
+        /* width: 500px; */
+    }
+
+    100% {
+        /* width: 700px; */
+        background-color: green;
+        left: 100%;
+        /* transform: translate(30px, 50px); */
+    }
+
+}
+
+.container:hover>div {
+    /* background-color: purple; */
+    /* width: 1300px */
+    /* transform: translate(300px,300px) scale(2); */
+    /* transform: scaleX(2); */
+}
+
+.linear {
+    /* transition-timing-function: cubic-bezier(0.79, 1.26, 0.81, 0.04);
+ background-color: rgb(174, 127, 255); */
+
+}
+
+.ease {
+    transition-timing-function: ease;
+    background-color: rgb(180, 255, 127);
+}
+
+.ease-in {
+    transition-timing-function: ease-in;
+    background-color: rgb(255, 195, 127);
+}
+
+.ease-out {
+    transition-timing-function: ease-out;
+    background-color: rgb(255, 127, 227);
+}
+
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+    background-color: rgb(255, 127, 157);
+}
+
+.btn {
+    background-color: #2160ffc0;
+    padding: 20px 30px;
+    border-radius: 30px;
+    border: none;
+    margin: 50px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+    animation: nitin 2s linear 0s infinite ;
+}
+
+@keyframes nitin {
+
+    from {
+        /* transform: rotate(0deg); */
+    }
+    to {
+        /* transform: translate(0, -5px) scale(1.1) rotate(-3deg); */
+        transform: rotate(360deg);
+    }
+    
+}
+
+.btn:hover {
+    /* transform: translate(0, -5px) scale(1.1) rotate(-3deg); */
+    /* transform: rotate(360deg); */
+    /* box-shadow: 0px 10px 10px rgba(121, 121, 121, 0.312); */
+}

@@ -1,0 +1,143 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:wght@400;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Playfair Display', ui-serif, Georgia, serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'Courier New', monospace;
+}
+
+
+:root {
+  --surface: #0f0f0f;
+  --surface-card: rgba(22, 22, 22, 0.75);
+  --surface-solid: #181818;
+  --surface-code: #141414;
+
+
+  --text-1: #eeeeee;
+  --text-2: #b8b8b8;
+  --text-3: #888888;
+  --text-4: #606060;
+
+
+  --border: #2a2a2a;
+  --border-subtle: rgba(255, 255, 255, 0.06);
+
+
+  --accent: #fbbf24;
+  --accent-dim: rgba(251, 191, 36, 0.10);
+  --accent-border: rgba(251, 191, 36, 0.22);
+
+
+  --navbar-bg: rgba(15, 15, 15, 0.82);
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --surface: #f7f6f3;
+    --surface-card: rgba(255, 255, 255, 0.90);
+    --surface-solid: #ffffff;
+    --surface-code: #eeede9;
+
+
+    --text-1: #111111;
+    --text-2: #383838;
+    --text-3: #5e5e5a;
+    --text-4: #8a8a84;
+
+
+    --border: #dddbd5;
+    --border-subtle: rgba(0, 0, 0, 0.07);
+
+
+    --accent: #b45309;
+    --accent-dim: rgba(180, 83, 9, 0.08);
+    --accent-border: rgba(180, 83, 9, 0.22);
+
+
+    --navbar-bg: rgba(247, 246, 243, 0.88);
+  }
+}
+
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--surface);
+    color: var(--text-1);
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+
+  header,
+  section,
+  article,
+  aside,
+  footer,
+  nav {
+    transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+  }
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 99px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #333 transparent;
+}
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out both;
+}
+
+.animate-fade-in-up-1 {
+  animation: fadeInUp 0.6s ease-out 0.15s both;
+}
+
+.animate-fade-in-up-2 {
+  animation: fadeInUp 0.6s ease-out 0.30s both;
+}
+
+.animate-fade-in-up-3 {
+  animation: fadeInUp 0.6s ease-out 0.45s both;
+}

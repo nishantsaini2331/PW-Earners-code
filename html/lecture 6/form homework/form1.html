@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form homework 1</title>
+</head>
+
+<body>
+
+    <h1>Novell Services Login</h1>
+
+    <!-- Simple form -->
+
+    <form action="">
+        <label for="username">Username: </label>
+        <input type="text" id="username" name="username">
+        <br><br>
+        <label for="pass">Password: </label>
+        <input type="password" id="pass" name="pass">
+        <br><br>
+        <label for="city">City of Employment: </label>
+        <input type="text" id="city" name="city">
+        <br><br>
+        <label for="server">Web server: </label>
+        <select name="server" id="server">
+            <option value="">Choose a server</option>
+            <option value="">Server 1</option>
+            <option value="">Server 2</option>
+            <option value="">Server 3</option>
+        </select>
+
+        <br><br>
+        <label for="role">Please specify your role:</label>
+        <br><br>
+        <input type="radio" id="admin" name="role">
+        <label for="admin">Admin</label>
+        <br><br>
+        <input type="radio" id="eng" name="role">
+        <label for="eng">Engineer</label>
+        <br><br>
+        <input type="radio" id="manager" name="role">
+        <label for="manager">Manager</label>
+        <br><br>
+        <input type="radio" id="guest" name="role">
+        <label for="guest">Guest</label>
+
+        <br><br>
+
+        <label for="sign">Single Sign-on to the follwing:</label>
+        <br><br>
+        <input type="checkbox" id="mail" name="mail">
+        <label for="mail">Mail</label>
+        <br><br>
+        <input type="checkbox" id="pay" name="pay">
+        <label for="pay">Payroll</label>
+        <br><br>
+        <input type="checkbox" id="service" name="service">
+        <label for="service">Self Service</label>
+
+        <br><br>
+
+        <button type="submit">Login</button>
+        <button type="submit">Reset</button>
+
+    </form>
+
+    <!-- Using table -->
+
+    <br><br>
+
+    <h2>Form Usign table tag</h2>
+
+    <form action="">
+        <table>
+            <tr>
+                <td> <label for="username">Username: </label></td>
+                <td> <input type="text" id="username" name="username"></td>
+            </tr>
+            <tr>
+                <td> <label for="pass">Password: </label></td>
+                <td> <input type="password" id="pass" name="pass"></td>
+            </tr>
+            <tr>
+                <td> <label for="city">City of Employment: </label> </td>
+                <td><input type="text" id="city" name="city"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="server">Web server: </label>
+                </td>
+                <td>
+                    <select name="server" id="server">
+                        <option value="">Choose a server</option>
+                        <option value="">Server 1</option>
+                        <option value="">Server 2</option>
+                        <option value="">Server 3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="role">Please specify your role:</label>
+                </td>
+                <td>
+                    <input type="radio" id="admin" name="role">
+                    <label for="admin">Admin</label>
+                    <br>
+                    <input type="radio" id="eng" name="role">
+                    <label for="eng">Engineer</label>
+                    <br>
+                    <input type="radio" id="manager" name="role">
+                    <label for="manager">Manager</label>
+                    <br>
+                    <input type="radio" id="guest" name="role">
+                    <label for="guest">Guest</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sign">Single Sign-on to the follwing:</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="mail" name="mail">
+                    <label for="mail">Mail</label>
+                    <br>
+                    <input type="checkbox" id="pay" name="pay">
+                    <label for="pay">Payroll</label>
+                    <br>
+                    <input type="checkbox" id="service" name="service">
+                    <label for="service">Self Service</label>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2"> 
+                    <button type="submit">Login</button>
+                    <button type="submit">Reset</button>
+                </th>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

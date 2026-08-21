@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form homwork 2</title>
+</head>
+
+<body>
+
+    <h1>Pete's Pizza Delivery</h1>
+    <h2>Online Order Form</h2>
+    <p><b>*</b> required fields</p>
+
+    <form action="">
+
+        <fieldset>
+
+            <legend>Customer details</legend>
+
+            <table>
+                <tr>
+                    <td>
+                        <label for="name"><b>*</b>Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="name" id="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="add"><b>*</b>Address:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="add" id="add">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="city"><b>*</b>Town/City:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="city" id="city">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="postcode"><b>*</b>Postcode:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="postcode" id="postcode">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="tel"><b>*</b>Tel:</label>
+                    </td>
+                    <td>
+                        <input type="tel" name="tel" id="tel">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email"><b>*</b>Email:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="email" id="email">
+                    </td>
+                </tr>
+            </table>
+
+
+
+        </fieldset>
+
+
+
+        <table>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Topings*</legend>
+                        <input type="radio" id="mag" name="topings">
+                        <label for="mag">Margherita</label>
+                        <br>
+                        <input type="radio" id="four-season" name="topings">
+                        <label for="four-season">Four Seasons</label>
+                        <br>
+                        <input type="radio" id="meat-feast" name="topings">
+                        <label for="meat-feast">Meat Feast</label>
+                        <br>
+
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset>
+                        <legend>Size*</legend>
+                        <input type="radio" id="small" name="Size">
+                        <label for="small">Small</label>
+                        <br>
+                        <input type="radio" id="medium" name="Size">
+                        <label for="medium">Medium</label>
+                        <br>
+                        <input type="radio" id="large" name="Size">
+                        <label for="large">Large</label>
+                        <br>
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset>
+                        <legend>Extras*</legend>
+                        <input type="checkbox" id="mushrooms">
+                        <label for="mushrooms">Mushrooms</label>
+                        <br>
+                        <input type="checkbox" id="green-peppers">
+                        <label for="green-peppers">Green peppers</label>
+                        <br>
+                        <input type="checkbox" id="anchovies">
+                        <label for="anchovies">Anchovies</label>
+                        <br>
+                        <input type="checkbox" id="extra-cheese">
+                        <label for="extra-cheese">Extra cheese</label>
+                        <br>
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+
+        <fieldset>
+            <legend>Delivery</legend>
+
+            <table>
+                <tr>
+                    <td>Preferred delivery time:</td>
+                    <td>
+                        <input type="time">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Delivery instructions:</td>
+                    <td>
+                        <textarea rows="6" cols="80"></textarea>
+                    </td>
+                </tr>
+            </table>
+
+            
+
+        </fieldset>
+
+        <br><br>
+
+        <input type="submit" value="Submit order"> 
+
+    </form>
+
+
+
+
+</body>
+
+</html>

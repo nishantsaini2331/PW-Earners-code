@@ -1,0 +1,66 @@
+#aditya {
+    font-family: "Yuyu";
+}
+
+
+#lakshya {
+    font-size:100px ;
+letter-spacing: 30px;
+text-shadow: 10px 20px 10px red;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 900;
+    text-indent: 100px;
+}
+
+
+#anu {
+    font-style: italic;
+    /* font-variant: small-caps; */
+    line-height: 1.5;
+    letter-spacing: 3px;
+    word-spacing: 30px;
+}
+
+.yuyu-regular {
+  font-family: "Yuyu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#vikash{
+    text-align: end;
+    border: 1px solid red;
+}
+
+#nilesh {
+     /* border: 1px solid red; */
+    text-align: center;
+    /* text-decoration: underline dotted;
+    text-decoration: line-through; */
+    /* text-decoration: overline wavy; */
+    /* text-decoration:underline wavy; */
+
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    text-indent: 50px;
+}
+
+em {
+    font-style: normal;
+}
+
+#color {
+    /* color: red; */
+    /* color: #b7a52e; */
+    /* color: rgb(189, 110, 110); */
+    /* color: rgba(255, 0, 72, 0.508); */
+
+    color: hsl(360, 100%, 50%);
+    color: hsla(360, 100%, 50% ,.5);
+    color: #ED4956;
+    /* background-color: rgb(253, 147, 147); */
+}

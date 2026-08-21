@@ -1,0 +1,98 @@
+/* * {
+ color: orange;
+} */
+
+/* span {
+    color: purple;
+}
+
+h3 {
+    color: rgb(0, 255, 4);
+}
+
+a, li {
+    color: rgb(255, 140, 0);
+}
+
+.hello {
+    color: brown;
+}
+
+.hello2{
+    background-color: red;
+}
+
+#nihal {
+    color: pink;
+    background-color: yellow;
+}
+
+
+.rakhi {
+    color:cadetblue;
+}
+
+#bhavya {
+    color :darkmagenta;
+}
+
+h1 {
+    color: burlywood;
+} */
+
+
+/* div p {
+    color: blue;
+} */
+
+/* div > p {
+     color: blue;
+} */
+
+/* a+p {
+    color: blue;
+} */
+
+a ~ p {
+    color: blue;
+}
+
+#nihal:hover {
+    background-color: rgb(108, 40, 40);
+}
+
+/* li:hover{
+    color: red;
+} */
+
+/* li:first-child {
+    color: green;
+} */
+
+/* li:last-child {
+    color: green;
+} */
+
+li:nth-child(2n + 3){
+    color: blueviolet;
+}
+
+
+h1::after {
+    content: " ji";
+}
+h1::first-letter {
+    color: blue;
+}
+
+/* h1::before {
+    content: "Hii ";
+} */
+
+h1::selection{
+    color: black;
+    background-color: red;
+}
+
+
+

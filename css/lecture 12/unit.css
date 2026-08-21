@@ -1,0 +1,36 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+
+#wrapper{
+    /* width: 500px; */
+    /* height: 500px; */
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(46, 246, 60); */
+    font-size: 20px;
+}
+
+span {
+    /* width: 250px;
+    height: 250px; */
+    /* display: inline-block;
+    width: 40%;
+    height: 50%;
+    background-color: aqua; */
+}
+section{
+    font-size:  4rem;
+}
+
+p {
+    font-size: 4rem;
+}

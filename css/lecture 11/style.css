@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    /* background-color: rgb(255, 157, 157); */
+    font-size: 100px;
+    /* box-sizing: content-box; */
+    border: 1px solid black;
+    padding: 200px;
+    margin-bottom: 10px;
+    width: 500px;
+    margin: auto;
+}
+
+#wrapper {
+    /* background: linear-gradient(to left,red ,blue); */
+    /* background: linear-gradient(45deg,red ,blue,yellow , pink, green); */
+   
+    /* background:radial-gradient(circle,red,green); */
+   
+    /* background: conic-gradient(red, yellow, green); */
+
+    /* background-image: url(image.png);
+
+    border: 1px solid black;
+    background-repeat: no-repeat; */
+    /* background-position: bottom; */
+    /* background-size: cover; */
+
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: red;
+
+
+    border : 2px solid navy; */
+
+
+
+    border: 10px solid blueviolet;
+    
+    /* padding: 230px; */
+
+    /* height: 500px; */
+
+    margin: 40px;
+
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+p{
+    /* padding: 40px; */
+    /* padding-bottom: 40px; */
+    /* padding : top right bottom left  */ 
+    /* padding: 0 40px 0 40px ; */
+    padding:40px 0px 10px;
+
+
+}
+
+.red-border {
+ border: 1px solid red;
+}
+
+#daisy { 
+    margin: auto;
+    text-align: center;
+}
+
+#mahi{
+   
+    width: 100px;
+    margin: auto;
+}
+
+span { 
+    display: inline-block;
+    /* margin: auto; */
+    width: 50px;
+    height: 50px;
+}
+
+#bholu {
+    /* padding: 40px; */
+    border: 2px solid black;
+}

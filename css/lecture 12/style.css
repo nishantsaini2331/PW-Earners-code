@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    border: 1px solid lightblue;
+    width: 800px;
+    height: 80px;
+}
+
+.box {
+    display: inline-block;
+    border: 1px solid red;
+    width: 100px;
+    height: 40px;
+    /* margin-top: 20px; */
+
+
+    background-color: rgb(128, 231, 73);
+    text-align: center;
+    /* left: 70px;
+    top : 80px; */
+}
+
+p {
+
+    /* display: none; */
+    /* visibility: hidden; */
+    display: inline-block;
+    background-color: red;
+    text-align: center;
+    color: white;
+    width: 140px;
+    height: 140px;
+    font-size: 60px;
+    padding: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 420px;
+}
+
+#wrapper {
+    padding: 100px;
+    border: 20px solid rgb(34, 230, 174);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#box3 {
+
+    /* position: absolute; */
+    position: fixed;
+
+    right: 70px;
+    /* bottom: 30px; */
+    /* left: 0px; */
+
+}
+
+#box4 {
+    position: relative;
+    left: 50px;
+    background-color: yellow;
+    z-index: -1;
+
+}
+
+
+#box5 {
+    position: relative;
+    z-index: -2;
+}
+
+
+#box1 {
+    position: relative;
+    /* left: 30px; */
+}
+
+#box2 {
+    position: sticky;
+    top: 10px;
+}
+
+.boxes {
+    border: 1px solid grey;
+    height: 400px;
+}
+
+.cart {
+    position: relative;
+    border: 1px solid black;
+    z-index: -1;
+    /* width: 40px;
+    height: 40px; */
+}
+
+/* img {
+    width: 40px;
+    height: 40px;
+} */

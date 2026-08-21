@@ -1,0 +1,6 @@
+@import "tailwindcss";  /* node modules */
+
+@theme {
+    --color-red-59 : #523442;
+     --color-brand : #896589;
+}
