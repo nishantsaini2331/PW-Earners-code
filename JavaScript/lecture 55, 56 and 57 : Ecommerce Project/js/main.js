@@ -611,7 +611,7 @@ function init() {
     fetchProducts(API);
     fetchCategories();
   }
-  
+
   loadProductPage();
   loadWishListPage();
   updateWishListCount();
@@ -634,8 +634,12 @@ function init() {
   if (searchInput) {
     searchInput.addEventListener("input", (e) => {
       e.stopPropagation();
-      let value = searchInput.value;
-      fetchProducts(`https://dummyjson.com/products/search?q=${value}&limit=0`);
+      let value = searchInput.value.trim();
+      if (value) {
+        fetchProducts(
+          `https://dummyjson.com/products/search?q=${value}&limit=0`,
+        );
+      }
     });
   }
 }
