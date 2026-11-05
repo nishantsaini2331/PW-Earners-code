@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  :root {
+    --background: 42 25% 97%;
+    --foreground: 220 15% 10%;
+    --border: 40 10% 88%;
+    --input: 40 10% 88%;
+    --ring: 24 95% 50%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #FAF9F5;
+    color: #1a1a1a;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f0eb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4d2c9;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b8b5a8;
+}
+
+/* Editorial badge styling */
+.badge-editorial {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* Grain / paper subtle effect */
+.paper-texture {
+  background-color: #FAF9F5;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Day Picker Calendar Custom Styles */
+.rdp, .rdp-root {
+  --rdp-cell-size: 38px;
+  --rdp-accent-color: #e65100;
+  --rdp-background-color: #feeedc;
+  margin: 0 !important;
+}
+
+.rdp-day_selected, .rdp-selected {
+  background-color: #e65100 !important;
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+.rdp-day_today, .rdp-today {
+  border-bottom: 2px solid #e65100;
+}
